@@ -1,0 +1,33 @@
+@media (max-width: 1100px) {
+    header {
+        .header-logo {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            margin-bottom: 10px;
+        }
+        .header-navigation {
+            width: 100%;
+            justify-content: center;
+        }
+    }
+}
+@media (max-width: 767px) {
+    .header-navigation {
+        ul {
+            flex-wrap: wrap;
+
+            li:first-child {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+            }
+            li:not(:first-child) {
+                width: 50%;
+            }
+            li:nth-child(odd) {
+                text-align: end;
+            }
+        }
+    }
+}

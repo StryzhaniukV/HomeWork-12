@@ -1,0 +1,125 @@
+.banner {
+    background-color: #709dca;
+    font-family: sans-serif;
+    padding-top: 110px;
+    .row {
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    h1 {
+        font-size: 26px;
+        font-weight: 900;
+        margin-bottom: 12px;
+        color: white;
+        letter-spacing: -0.88px;
+    }
+    p {
+        color: white;
+        margin-bottom: 30px;
+        font-size: small;
+    }
+    form {
+        input {
+            font-size: 11px;
+            width: 280px;
+            padding: 0 35px;
+            height: 45px;
+            border-radius: 3px;
+            border: 0;
+            transition: all 0.3s ease;
+
+            &:hover {
+                background-color: #ffe1ad;
+
+            }
+            &:focus {
+                background-color: $orange-color;
+                color: black
+            }
+        }
+        .input-name {
+            background-image: url(../../../images/input-icon-01.png);
+            background-repeat: no-repeat;
+            background-size: 13px;
+            background-position: 15px 15px;
+        }
+        .input-email {
+            background-image: url(../../../images/input-icon-02.png);
+            background-repeat: no-repeat;
+            background-size: 15px;
+            background-position: 16px 17px;
+        }
+        .input-number {
+            background-image: url(../../../images/input-icon-03.png);
+            background-repeat: no-repeat;
+            background-size: 13px;
+            background-position: 15px 15px;
+        }
+
+        button {
+            font-size: 11px;
+            width: 210px;
+            padding: 0 35px;
+            height: 45px;
+            border-radius: 3px;
+            border: 0;
+            background-color: $orange-color;
+            color: white;
+
+            &:hover {
+                color: #a9a9a9;
+            }
+        }
+    }
+}
+.slider-box {
+    background-color: #709dca; 
+    margin-bottom: 73px;
+
+    .slider-image-box {
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;   
+    height: 343px;
+    background-image: url(../../../images/header-img-laptop.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    top: 63px;
+     
+        
+        img {
+            position: relative;
+        top: -21px;
+        left: 348px;
+        }
+    
+    }
+    .rings-container {
+        background-color: white;
+        padding-top: 70px;
+
+        .rings {
+            width: 60px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+
+            a {
+                width: 15px;
+                height: 15px;
+                border: 3px solid;
+                border-radius: 50%;
+                color: #dedfe0;
+                transition: color 0.6s;
+
+                &:hover {
+                    color: #1ca8dd;
+                }
+            }
+        }
+    }
+}
