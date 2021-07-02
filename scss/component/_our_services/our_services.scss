@@ -1,0 +1,49 @@
+.services {
+    margin-bottom: 150px;
+    .row {
+        justify-content: space-between;
+    }
+    font-family: sans-serif;
+    .our {
+
+    width: 100%;
+    text-align: center;
+    color: $title-color;
+    margin-bottom: 90px;
+
+    h2 {
+        font-size: 25px;
+        font-weight: 900;
+        letter-spacing: 0.9px;
+        margin-bottom: 10px;
+    }
+    p {
+        font-size: 16px;
+    }
+
+    }
+    .items {
+        width: 45%;
+        display: flex;
+
+        &:nth-last-child(n+3){
+            margin-bottom: 80px;
+        }
+        
+
+        h4 {
+            text-transform: uppercase;
+            font-weight: 600;
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 13px;
+            line-height: 19px;
+            letter-spacing: 0.35px;
+        }
+        .text {
+            padding-left: 33px;
+        }
+    }
+}

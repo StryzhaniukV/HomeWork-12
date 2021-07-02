@@ -1,0 +1,30 @@
+@media (max-width: 1170px) {
+    .about-us {
+        
+    .right-side {
+            
+        padding: 0 20px;
+         
+        }
+        
+    }
+}
+@media (max-width: 767px) {
+    .about-us {
+        .row {
+            flex-direction: column-reverse;
+            .left-side {
+                width: 100%;
+            }
+            .right-side {
+                flex-direction: row;
+                width: 100%;
+                text-align: center;
+                padding: 20px;
+                p {
+                    text-align: justify;
+                }
+            }
+        }
+    }
+}

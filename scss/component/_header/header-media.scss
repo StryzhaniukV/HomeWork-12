@@ -1,3 +1,16 @@
+@media (max-width: 1170px) {
+    header {
+        .header-navigation {
+
+        
+            a {
+                padding: 6px 11px;
+            }
+        }
+
+    }
+}
+
 @media (max-width: 1100px) {
     header {
         .header-logo {
@@ -27,6 +40,9 @@
             }
             li:nth-child(odd) {
                 text-align: end;
+            }
+            li:nth-last-child(n+3):not(:first-child){
+                margin-bottom: 10px;
             }
         }
     }
