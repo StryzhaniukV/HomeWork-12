@@ -12,10 +12,8 @@
     margin-bottom: 90px;
 
     h2 {
-        font-size: 25px;
-        font-weight: 900;
-        letter-spacing: 0.9px;
-        margin-bottom: 10px;
+        @include headings (25px, 900, 0.9px, 10px, uppercase);
+        
     }
     p {
         font-size: 16px;
@@ -31,11 +29,19 @@
         }
         
 
+        a {
+            font-size: 55px;
+            color: #79a3cd;
+
+            &:hover {
+                color: $orange-color;
+
+            }
+        }
+
         h4 {
-            text-transform: uppercase;
-            font-weight: 600;
-            font-size: 16px;
-            margin-bottom: 20px;
+            @include headings (16px, 600, 0px, 20px, uppercase);
+            color: $title-color;
         }
         p {
             font-size: 13px;

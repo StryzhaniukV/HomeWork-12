@@ -376,12 +376,6 @@ textarea {
   flex-wrap: wrap;
 }
 
-.pricing .plan-two .link a:hover, .pricing .plan-one .link a:hover, .pricing .plan-three .link a:hover {
-  background: white;
-  color: #ffbb42;
-  box-shadow: inset 0 0 20px 1px;
-}
-
 @media (max-width: 1170px) {
   .container {
     width: 1100px;
@@ -483,10 +477,9 @@ header .header-navigation a:hover {
 .banner h1 {
   font-size: 26px;
   font-weight: 900;
-  letter-spacing: -0.88px;
   margin-bottom: 12px;
-  text-transform: uppercase;
   color: white;
+  letter-spacing: -0.88px;
 }
 .banner p {
   color: white;
@@ -501,7 +494,6 @@ header .header-navigation a:hover {
   border-radius: 3px;
   border: 0;
   transition: all 0.3s ease;
-  margin-right: 5px;
 }
 .banner form input:hover {
   background-color: #ffe1ad;
@@ -520,7 +512,7 @@ header .header-navigation a:hover {
   background-image: url(../images/input-icon-02.png);
   background-repeat: no-repeat;
   background-size: 15px;
-  background-position: 16px 15px;
+  background-position: 16px 17px;
 }
 .banner form .input-number {
   background-image: url(../images/input-icon-03.png);
@@ -668,7 +660,6 @@ header .header-navigation a:hover {
   font-weight: 900;
   letter-spacing: 0.9px;
   margin-bottom: 10px;
-  text-transform: uppercase;
 }
 .services .our p {
   font-size: 16px;
@@ -680,20 +671,11 @@ header .header-navigation a:hover {
 .services .items:nth-last-child(n+3) {
   margin-bottom: 80px;
 }
-.services .items a {
-  font-size: 55px;
-  color: #79a3cd;
-}
-.services .items a:hover {
-  color: #ffbb42;
-}
 .services .items h4 {
-  font-size: 16px;
-  font-weight: 600;
-  letter-spacing: 0px;
-  margin-bottom: 20px;
   text-transform: uppercase;
-  color: #394b50;
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 20px;
 }
 .services .items p {
   font-size: 13px;
@@ -763,10 +745,9 @@ header .header-navigation a:hover {
 }
 .about-us .right-side .right-text a {
   color: white;
-  background-color: #ffbb42;
   text-decoration: none;
   border: 1px solid #d9a548;
-  padding: 16px 21px;
+  padding: 16px 30px;
   display: inline-block;
   border-radius: 3px;
   text-transform: uppercase;
@@ -801,140 +782,5 @@ header .header-navigation a:hover {
     text-align: justify;
   }
 }
-@media (max-width: 500px) {
-  .left-side {
-    display: none;
-  }
-}
-.pricing {
-  background-color: #e7edf3;
-  padding: 130px 0;
-}
-.pricing .row:last-child {
-  justify-content: center;
-  align-items: baseline;
-}
-.pricing .Choose {
-  width: 100%;
-  text-align: center;
-  color: #394b50;
-  margin-bottom: 50px;
-}
-.pricing .Choose h2 {
-  font-size: 25px;
-  font-weight: 900;
-  letter-spacing: 0px;
-  margin-bottom: 10px;
-  text-transform: uppercase;
-}
-.pricing .Choose p {
-  font-size: 16px;
-}
-.pricing .plan-one, .pricing .plan-three {
-  width: calc(100%/3);
-  padding: 57px 20px 0 20px;
-  min-height: 440px;
-  text-transform: uppercase;
-  text-align: center;
-  background-color: white;
-  border: 1px solid #ccd5df;
-  border-radius: 3px;
-}
-.pricing .plan-one .plan-top, .pricing .plan-three .plan-top {
-  margin-bottom: 30px;
-}
-.pricing .plan-one .plan-top h3, .pricing .plan-three .plan-top h3 {
-  font-size: 25px;
-  color: #818b95;
-}
-.pricing .plan-one .plan-price, .pricing .plan-three .plan-price {
-  margin-bottom: 30px;
-}
-.pricing .plan-one .plan-price p:first-child, .pricing .plan-three .plan-price p:first-child {
-  color: #ffbb42;
-}
-.pricing .plan-one .plan-price p:first-child span:first-child, .pricing .plan-three .plan-price p:first-child span:first-child {
-  font-weight: 700;
-  font-size: 30px;
-  vertical-align: top;
-  transform: rotateZ(7deg);
-  display: inline-block;
-}
-.pricing .plan-one .plan-price p:first-child span:last-child, .pricing .plan-three .plan-price p:first-child span:last-child {
-  font-size: 60px;
-  font-weight: 700;
-}
-.pricing .plan-one .plan-price p:last-child, .pricing .plan-three .plan-price p:last-child {
-  font-size: 20px;
-  color: #818b95;
-}
-.pricing .plan-one .dasc p, .pricing .plan-three .dasc p {
-  border-top: 1px solid #e2e9f0;
-  font-size: 14px;
-  color: #b5bbc1;
-  padding: 15px 0;
-}
-.pricing .plan-one .link a, .pricing .plan-three .link a {
-  color: white;
-  background-color: #ffbb42;
-  text-decoration: none;
-  border: 1px solid #d9a548;
-  padding: 16px 21px;
-  display: inline-block;
-  border-radius: 3px;
-  text-transform: uppercase;
-  transition: background 0.6s;
-}
-.pricing .plan-two {
-  position: relative;
-  bottom: 0px;
-  padding: 100px 20px 90px;
-  width: calc(100%/3);
-  color: white;
-  border-radius: 3px;
-  text-transform: uppercase;
-  text-align: center;
-  background-color: #709dca;
-  border: 1px solid #ccd5df;
-}
-.pricing .plan-two .plan-top {
-  margin-bottom: 30px;
-}
-.pricing .plan-two .plan-top h3 {
-  font-size: 25px;
-}
-.pricing .plan-two .plan-price {
-  margin-bottom: 30px;
-}
-.pricing .plan-two .plan-price p:first-child span:first-child {
-  font-weight: 700;
-  font-size: 30px;
-  vertical-align: top;
-  transform: rotateZ(7deg);
-  display: inline-block;
-}
-.pricing .plan-two .plan-price p:first-child span:last-child {
-  font-size: 60px;
-  font-weight: 700;
-}
-.pricing .plan-two .plan-price p:last-child {
-  font-size: 20px;
-}
-.pricing .plan-two .dasc p {
-  border-top: 1px solid #e2e9f0;
-  font-size: 14px;
-  padding: 15px 0;
-}
-.pricing .plan-two .link a {
-  color: white;
-  background-color: #ffbb42;
-  text-decoration: none;
-  border: 1px solid #d9a548;
-  padding: 16px 21px;
-  display: inline-block;
-  border-radius: 3px;
-  text-transform: uppercase;
-  transition: background 0.6s;
-}
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.csss.map */

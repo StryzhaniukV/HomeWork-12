@@ -1,0 +1,27 @@
+@mixin banner-input ($bg-img, $bg-repet, $bg-size, $bg-position ) {
+            background-image: $bg-img;
+            background-repeat: $bg-repet;
+            background-size: $bg-size;
+            background-position: $bg-position;
+}
+@mixin headings ($size, $weight, $lt-space, $mr-bt, $text-tr) {
+        font-size: $size;
+        font-weight: $weight;
+        letter-spacing: $lt-space;
+        margin-bottom: $mr-bt;
+        text-transform: $text-tr;
+
+}
+@mixin button ($color, $bg, $text-dec, $border, $padding, $display, $bord-rad, $text-tr, $transit){
+
+    color: $color;
+    background-color: $bg;
+    text-decoration: $text-dec;
+    border: $border;
+    padding: $padding;
+    display: $display;
+    border-radius: $bord-rad;
+    text-transform: $text-tr;
+    transition: $transit;
+    
+}
