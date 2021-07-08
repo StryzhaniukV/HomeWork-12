@@ -1,0 +1,28 @@
+@media (max-width: 992px) {
+    .pricing {
+        .row:last-child {
+            flex-direction: column;
+            align-items: center;
+
+            div:not(:last-child) {
+                margin-bottom: 20px;
+            }
+
+            .plan-one, .plan-two, .plan-three {
+                width: 80%;
+            }
+        }
+    }
+}
+@media (max-width: 500px) {
+    .pricing {
+        .row:last-child {
+
+            .plan-one, .plan-two, .plan-three {
+                width: 100%;
+            }
+
+        }
+        
+    }
+}
